@@ -1,12 +1,14 @@
 #ifndef PREDIO
 #define PREDIO
 #include "sala.h"
-#include "includes.h"
+#include "extras.h"
 /*
 *	Declaro a classe predio, que tem todo o conjunto de salas naquele predio.
 *	A função adicionar sala cria uma nova sala e adiciona aquele predio.
 *	A função alocar pedido encontra a primeira sala disponivel naquele horario e coloca o pedido lá.
 */
+
+
 
 class Predio{
 private:
@@ -21,5 +23,9 @@ public:
 	void imprimir();
 	bool alocarPedido(int capacidadePedida, int dia, int turno, int tempoInicial, int tempoFinal, std::string detalhesDoPedido);
 };
+
+// Comparo duas salas por ordem de capacidade. Retornando falso se a é maior que b.
+
+bool comparar(const Sala &a, const int b);
 
 #endif

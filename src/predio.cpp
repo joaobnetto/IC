@@ -1,5 +1,8 @@
 #include "predio.h"
-#include "includes.h"
+
+bool comparar(const Sala &a, const int b){
+	return a.capacidade < b;
+}
 
 Predio::Predio(std::string nome){
 	this->nome = nome;

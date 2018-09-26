@@ -1,5 +1,6 @@
 #include <iostream>
 #include "sala.h"
+#include "predio.h"
 #include "rapidjson/document.h"
 #include "rapidjson/filereadstream.h"
 #include <cstdio>

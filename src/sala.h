@@ -1,6 +1,6 @@
 #ifndef SALA
 #define SALA
-#include "includes.h"
+#include "extras.h"
 #define MATUTINO 0
 #define TARDE 1
 #define NOTURNO 2
