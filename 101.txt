@@ -1,0 +1,74 @@
+08:00-08:50	
+2 Economia Brasileira 1, Ciências Econômicas
+3 Macroeconomia 1, Ciências Econômicas
+4 Economia Brasileira 1, Ciências Econômicas
+5 Microeconomia 2, Ciências Econômicas
+6 Econometria 1, Ciências Econômicas
+7 Pesquisa EM Administração, Administração
+08:50-09:40	
+2 Economia Brasileira 1, Ciências Econômicas
+3 Macroeconomia 1, Ciências Econômicas
+4 Economia Brasileira 1, Ciências Econômicas
+5 Microeconomia 2, Ciências Econômicas
+6 Econometria 1, Ciências Econômicas	
+7 Pesquisa EM Administração, Administração
+10:00-10:50		
+3 Macroeconomia 1, Ciências Econômicas
+4 Fisiologia do Desenvolvimento Vegetal, Agronomia
+5 Microeconomia 2, Ciências Econômicas
+6 Fisiologia do Metabolismo Vegetal, Agronomia
+7 Pesquisa EM Administração, Administração
+10:50-11:40		
+3 Macroeconomia 1, Ciências Econômicas
+4 Fisiologia do Desenvolvimento Vegetal, Agronomia
+5 Microeconomia 2, Ciências Econômicas
+6 Fisiologia do Metabolismo Vegetal, Agronomia
+7 Pesquisa EM Administração, Administração	
+14:00-14:50	
+2 Algoritmos e Estrutura de Dados 2, Ciências da Computação
+3 Metabolismo Celular, Engenharia Florestal
+4 Morfologia e Taxonomia Vegetal, Agronomia
+5 Edp, Matemática Doutorado
+6 Tópicos 2, Ciências da Computação
+14:50-15:40	
+2 Algoritmos e Estrutura de Dados 2, Ciências da Computação
+3 Metabolismo Celular, Engenharia Florestal
+4 Morfologia e Taxonomia Vegetal, Agronomia
+5 Edp, Matemática Doutorado
+6 Tópicos 2, Ciências da Computação
+16:00-16:50	
+2 Anatomia Vegetal, Agronomia
+3 Metabolismo Celular, Engenharia Florestal
+4 Cálculo 2B, Agronomia
+5 Bioquímica de Biomoléculas, Agronomia
+6 Cálculo 2B, Agronomia
+16:50-17:40	
+2 Anatomia Vegetal, Agronomia
+3 Metabolismo Celular, Engenharia Florestal
+4 Cálculo 2B, Agronomia
+5 Bioquímica de Biomoléculas, Agronomia
+6 Cálculo 2B, Agronomia
+18:50-19:35	
+2 Gestão de Pessoas i, Administração
+3 Comportamento Organizaciona, Administração
+4 Estatística Inferencial, Administração
+5 Direito Tributário, Administração
+6 Pesquisa EM Administração, Administração
+19:35-20:20	
+2 Gestão de Pessoas i, Administração
+3 Comportamento Organizaciona, Administração
+4 Estatística Inferencial, Administração
+5 Direito Tributário, Administração
+6 Pesquisa EM Administração, Administração
+20:30-21:15
+2 Gestão de Pessoas i, Administração
+3 Comportamento Organizaciona, Administração
+4 Finanças de Curto Prazo, Administração
+5 Macroeconomia, Administração
+6 Pesquisa EM Administração, Administração
+21:15-22:00	
+2 Gestão de Pessoas i, Administração
+3 Comportamento Organizaciona, Administração
+4 Finanças de Curto Prazo, Administração
+5 Macroeconomia, Administração, Graduação
+6 Pesquisa EM Administração, Administração
