@@ -16,11 +16,12 @@ private:
 public:
 	std::string nome;
 	Predio(std::string nome);
-	void addSala(std::string nomeDaSala, int capacidadeDaSala);
+	void addSala(std::string nomeDaSala, int capacidadeDaSala, std::string tipo);
 	// Ordena as salas por capacidade.
 	void ordenar();
 	// Imprime toda as salas daquele edificio.
 	void imprimir();
+	int capacidadedoPredio(int capacidadePedida);
 	bool alocarPedido(int capacidadePedida, int dia, int turno, int tempoInicial, int tempoFinal, std::string detalhesDoPedido);
 };
 

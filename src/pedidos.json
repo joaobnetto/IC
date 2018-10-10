@@ -5,7 +5,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 1,
+		"tipo": "S"
 	},
 	"pedido2":{
 		"horario": "3T23",
@@ -13,7 +14,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido3":{
 		"horario": "25T45",
@@ -21,7 +23,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido4":{
 		"horario": "246M45",
@@ -29,7 +32,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 5,
+		"tipo": "S"
 	},
 	"pedido5":{
 		"horario": "35M23",
@@ -37,7 +41,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido6":{
 		"horario": "46M23",
@@ -45,7 +50,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido7":{
 		"horario": "25M45",
@@ -53,7 +59,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido8":{
 		"horario": "24M23",
@@ -61,7 +68,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 3,
+		"tipo": "S"
 	},
 	"pedido9":{
 		"horario": "24M45",
@@ -69,7 +77,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido10":{
 		"horario": "25T23",
@@ -77,7 +86,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido11":{
 		"horario": "35M23",
@@ -85,7 +95,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido12":{
 		"horario": "35M45",
@@ -93,7 +104,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido13":{
 		"horario": "24M45",
@@ -101,7 +113,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 5,
+		"tipo": "S"
 	},
 	"pedido14":{
 		"horario": "35M23",
@@ -109,7 +122,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido15":{
 		"horario": "35T23",
@@ -117,7 +131,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido16":{
 		"horario": "35M45",
@@ -125,7 +140,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido17":{
 		"horario": "5M23",
@@ -133,7 +149,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 1,
+		"tipo": "S"
 	},
 	"pedido18":{
 		"horario": "5T23",
@@ -141,7 +158,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido19":{
 		"horario": "24M23",
@@ -149,7 +167,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 3,
+		"tipo": "S"
 	},
 	"pedido20":{
 		"horario": "24M45",
@@ -157,7 +176,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido21":{
 		"horario": "35M23",
@@ -165,7 +185,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido22":{
 		"horario": "35M45",
@@ -173,7 +194,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido23":{
 		"horario": "26T23",
@@ -181,7 +203,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido24":{
 		"horario": "35T23",
@@ -189,7 +212,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido25":{
 		"horario": "3T45",
@@ -197,7 +221,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido26":{
 		"horario": "35T23",
@@ -205,7 +230,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 5,
+		"tipo": "S"
 	},
 	"pedido27":{
 		"horario": "6M23",
@@ -213,7 +239,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 3,
+		"tipo": "S"
 	},
 	"pedido28":{
 		"horario": "6T23",
@@ -221,7 +248,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "50",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 0,
+		"tipo": "S"
 	},
 	"pedido29":{
 		"horario": "35M45",
@@ -229,7 +257,8 @@
 		"curso": "Ciencia da Computacao",
 		"capacidade": "60",
 		"predio": "CAB",
-		"prioridade": "0"
+		"prioridade": 1,
+		"tipo": "S"
 	}
 
 }

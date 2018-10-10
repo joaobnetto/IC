@@ -11,13 +11,14 @@
 *	Tem os atributos nome e capacidade, que define uma sala de aula.
 *	O atributo capacidade é o mais importante, e é o que define a alocação.
 */
+
 class Sala{
 private:
 	std::string horario[6][3][5];
 public:
-	std::string nome;
+	std::string nome, tipo;
 	int capacidade;
-	Sala(std::string nome, int capacidade);
+	Sala(std::string nome, int capacidade, std::string tipo);
 	// Retorna o que há no horário.
 	std::string getHorario(int dia, int turno, int digito);
 	// Coloca no horário pedido a disciplina que foi alocada.
