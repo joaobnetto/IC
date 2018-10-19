@@ -1,6 +1,13 @@
 #include "sala.h"
 
 
+bool customCompare(const Pedido &a, const Pedido &b){
+	if(a.prioridade > b.prioridade) return true;
+	else if(a.prioridade == b.prioridade) return a.capacidade > b.capacidade;
+	return false;
+}
+
+
 Sala::Sala(std::string nome, int capacidade, std::string tipo){
 	this->nome = nome;
 	this->capacidade = capacidade;

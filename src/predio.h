@@ -22,7 +22,7 @@ public:
 	// Imprime toda as salas daquele edificio.
 	void imprimir();
 	int capacidadedoPredio(int capacidadePedida);
-	bool alocarPedido(int capacidadePedida, int dia, int turno, int tempoInicial, int tempoFinal, std::string detalhesDoPedido);
+	bool alocarPedido(int capacidadePedida, Pedido pedido, int dia);
 };
 
 // Comparo duas salas por ordem de capacidade. Retornando falso se a é maior que b.

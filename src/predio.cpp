@@ -42,30 +42,31 @@ int Predio::capacidadedoPredio(int capacidadePedida){
 	}
 		
 }
-bool Predio::alocarPedido(int capacidadePedida, int dia, int turno, int tempoInicial, int tempoFinal, std::string detalhesDoPedido){
+bool Predio::alocarPedido(int capacidadePedida, Pedido pedido, int dia){
 	auto vetor = lower_bound(salas.begin(),salas.end(), capacidadePedida, comparar); //aponta pro primeiro e vai ate o ultimo
 	for(;vetor != salas.end();++vetor){
 		bool salaCheia = false;
 		Sala tmp = *vetor;
+		if(tmp.tipo != pedido.tipo) continue;
 		double numeroreal;
 		numeroreal = (1.0*capacidadePedida)/tmp.capacidade*1.0;
 		if(numeroreal < 0.5)	{
 			return false;
 		}
-		for(int i = tempoInicial-1;i < tempoFinal;i++){
-			if(tmp.getHorario(dia, turno, i) != ""){
+		for(int i = pedido.tempoInicial-1;i < pedido.tempoFinal;i++){
+			if(tmp.getHorario(dia, pedido.turno, i) != ""){
 				salaCheia = true;
 				break;
 			}
 		}
 		if(salaCheia) continue;
 		if(tmp.capacidade < capacidadePedida) std::cerr << tmp.capacidade << " " << capacidadePedida << "\n";
-		for(int i = tempoInicial-1;i < tempoFinal;i++){
-			(*vetor).setHorario(dia, turno, i, detalhesDoPedido);
+		for(int i = pedido.tempoInicial-1;i < pedido.tempoFinal;i++){
+			(*vetor).setHorario(dia, pedido.turno, i, pedido.info);
 		}
 		return true;
 	}
-	//std::cout << "NAO CONSEGUI ALOCAR\n";
+	std::cerr << "NAO CONSEGUI ALOCAR\n";
 	return false;	
 }
 

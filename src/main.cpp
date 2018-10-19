@@ -7,17 +7,6 @@
 #include <vector>
 #include <time.h>
 
-struct Pedido{
-	std::string info, predio, tipo;
-	int capacidade, turno, primeiroHorario, ultimoHorario, prioridade, npredio;
-	std::vector < int > dias;
-};
-
-bool customCompare(const Pedido &a, const Pedido &b){
-	if(a.prioridade > b.prioridade) return true;
-	else if(a.prioridade == b.prioridade) return a.capacidade > b.capacidade;
-	return false;
-}
 
 void lerPredios(std::vector < Predio > &predios){
 	// Variaveis que serão utilizadas depois
@@ -121,8 +110,8 @@ void lerPedidos(std::vector < Predio > &predios){
 		else if(horario[j] == 'T') tmp.turno = 1;
 		else tmp.turno = 2;
 		j++;
-		tmp.primeiroHorario = horario[j] - '0';
-		tmp.ultimoHorario = horario[horario.size()-1]-'0';
+		tmp.tempoInicial = horario[j] - '0';
+		tmp.tempoFinal = horario[horario.size()-1]-'0';
 		tmp.npredio = i;
 		pedidos.push_back(tmp);
 	}
@@ -138,7 +127,7 @@ void lerPedidos(std::vector < Predio > &predios){
 		int capa = pedidos[i].capacidade;
 		for(int k = 0;k < pedidos[i].dias.size();k++){
 			
-			bool situacao = predios[pedidos[i].npredio].alocarPedido(capa, pedidos[i].dias[k], pedidos[i].turno, pedidos[i].primeiroHorario, pedidos[i].ultimoHorario, pedidos[i].info);
+			bool situacao = predios[pedidos[i].npredio].alocarPedido(capa, pedidos[i], pedidos[i].dias[k]);
 			if(situacao == false){
 				capa = predios[i].capacidadedoPredio(capa);
 				double numeroreal = (capa*1.0)/capacidadedpp*1.0; 

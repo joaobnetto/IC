@@ -5,6 +5,19 @@
 #define TARDE 1
 #define NOTURNO 2
 
+/*
+*	Defino a struct pedido que define os valores necessários pra alocar uma sala.
+*/
+
+
+struct Pedido{
+	std::string info, predio, tipo;
+	int capacidade, turno, tempoInicial, tempoFinal, prioridade, npredio;
+	std::vector < int > dias;
+};
+
+bool customCompare(const Pedido &a, const Pedido &b);
+
 
 /*
 *	Declaro a classe sala que representa uma sala de aula.
