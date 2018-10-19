@@ -31,6 +31,7 @@ void Sala::imprimir(){
 		else if(i == 3) std::cout << "Quinta\n";
 		else if(i == 4) std::cout << "Sexta\n";
 		else if(i == 5) std::cout << "Sabado\n";
+
 		for(int j = 0;j < 5;j++){
 			if(j == 0) std::cout << "07:10-08:00 ";
 			else if(j == 1) std::cout << "08:00-08:20 ";
@@ -40,6 +41,7 @@ void Sala::imprimir(){
 			if(this->horario[i][MATUTINO][j] != "") std::cout << this->horario[i][MATUTINO][j] << "\n";
 			else std::cout << "SEM AULA\n";
 		}
+
 		for(int j = 0;j < 5;j++){
 			if(j == 0) std::cout << "13:10-14:00 ";
 			else if(j == 1) std::cout << "14:00-14:20 ";
@@ -49,6 +51,7 @@ void Sala::imprimir(){
 			if(this->horario[i][TARDE][j] != "") std::cout << this->horario[i][TARDE][j] << "\n";
 			else std::cout << "SEM AULA\n";
 		}
+		
 		for(int j = 0;j < 5;j++){
 		 	if(j == 0) std::cout << "18:00-18:20 ";
 		 	else if(j == 1) std::cout << "18:20-19:40 ";

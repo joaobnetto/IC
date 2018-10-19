@@ -1,7 +1,7 @@
 #ifndef PREDIO
 #define PREDIO
 #include "sala.h"
-#include "extras.h"
+#include "includes.h"
 /*
 *	Declaro a classe predio, que tem todo o conjunto de salas naquele predio.
 *	A função adicionar sala cria uma nova sala e adiciona aquele predio.
@@ -13,6 +13,7 @@
 class Predio{
 private:
 	std::vector < Sala > salas;
+
 public:
 	std::string nome;
 	Predio(std::string nome);
@@ -26,7 +27,10 @@ public:
 };
 
 // Comparo duas salas por ordem de capacidade. Retornando falso se a é maior que b.
-
 bool comparar(const Sala &a, const int b);
+
+
+// Função que lê o arquivo JSON que fornece os predios disponiveis pra alocação.
+void lerPredios(std::vector < Predio > &predios);
 
 #endif

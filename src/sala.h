@@ -1,6 +1,6 @@
 #ifndef SALA
+#include "includes.h"
 #define SALA
-#include "extras.h"
 #define MATUTINO 0
 #define TARDE 1
 #define NOTURNO 2
@@ -16,6 +16,7 @@ struct Pedido{
 	std::vector < int > dias;
 };
 
+// Função que ordena os pedidos por ordem de prioridade, e depois por ordem de capacidade.
 bool customCompare(const Pedido &a, const Pedido &b);
 
 
@@ -28,6 +29,7 @@ bool customCompare(const Pedido &a, const Pedido &b);
 class Sala{
 private:
 	std::string horario[6][3][5];
+
 public:
 	std::string nome, tipo;
 	int capacidade;
