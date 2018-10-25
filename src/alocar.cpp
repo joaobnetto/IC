@@ -81,7 +81,7 @@ void alocar(std::vector < Predio > &predios, std::vector < Pedido > &pedidos){
 				
 				if(situacao == false){
 					
-					capa = predios[i].capacidadedoPredio(capa);
+					capa = predios[pedidos[i].npredio].capacidadedoPredio(capa);
 					double numeroreal = (capa*1.0)/capacidadedpp*1.0; 
 					
 					if(numeroreal >= 0.5){
