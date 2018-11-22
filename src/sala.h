@@ -12,7 +12,7 @@
 
 struct Pedido{
 	std::string info, predio, tipo;
-	int capacidade, turno, tempoInicial, tempoFinal, prioridade, npredio;
+	int capacidade, turno, tempoInicial, tempoFinal, prioridade, npredio, periodo;
 	std::vector < int > dias;
 };
 

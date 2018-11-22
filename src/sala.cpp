@@ -2,8 +2,12 @@
 
 
 bool customCompare(const Pedido &a, const Pedido &b){
-	if(a.prioridade > b.prioridade) return true;
-	else if(a.prioridade == b.prioridade) return a.capacidade > b.capacidade;
+	int tmp = a.predio.compare(b.predio);
+	if(tmp < 0) return true;
+	else if(tmp > 0) return false;
+	else if(a.prioridade > b.prioridade) return true;
+	else if(a.prioridade < b.prioridade) return false;
+	else if(a.periodo < b.periodo) return true;
 	return false;
 }
 
